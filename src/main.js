@@ -26,4 +26,3 @@ form.addEventListener('submit', event => {
   form.reset();
   result.focus();
 });
-document.querySelector('#year').textContent = new Date().getFullYear();
